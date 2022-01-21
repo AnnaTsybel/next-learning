@@ -1,0 +1,18 @@
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:$footer-height;
+    background: $footer-bg;
+    &__navigation{
+        ul{
+            display:flex;
+            flex-direction: row;
+            li{
+                padding:0.5rem 2rem;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,14 @@
+@import './utils/default';
+@import './utils/variables';
+@import './utils/mixins';
+
+@import '../src/components/Layout/header';
+@import '../src/components/Layout/footer';
+@import '../src/components/main-content';
+
+@import '../src/components/Pages/Tasks/tasks';
+@import '../src/components/Pages/Tasks/TodoList/todoList';
+@import '../src//components/Pages/Tasks/TodoList/TodoItem/todo-item';
+
+@import '../src/components/Pages/Posts/PostsLists/post-list';
+@import '../src/components/Pages/Posts/PostsLists/PostItem/post-item';

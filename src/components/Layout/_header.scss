@@ -1,0 +1,22 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: $header-height;
+    background: $header-bg;
+}
+.navigation {
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 0.5rem 2rem;
+            a{
+            text-decoration: none;
+
+            }
+        }
+}
+}

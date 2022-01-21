@@ -1,0 +1,20 @@
+.todoList{
+    &__element{
+        display:block;
+        width:45%;
+        background: rgb(135, 179, 135);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin:1rem;
+        &__title{
+            font-size: 2rem;
+            text-align: center;
+        }
+        &__topSide{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

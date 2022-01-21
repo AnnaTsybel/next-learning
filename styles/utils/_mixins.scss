@@ -1,0 +1,5 @@
+@each $categorie, $color in $categories {
+    .task-#{categorie} {
+      background:$color;
+    }
+  }

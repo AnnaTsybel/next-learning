@@ -1,19 +1,28 @@
 {
-  "name": "next-app",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.0.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.4"
-  }
+    "name": "next-app",
+    "private": false,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "serve": "concurrently \"npm run dev\" \"npm run mock\" ",
+        "mock": "json-server --watch db.json --port 4200 -d 450"
+    },
+    "dependencies": {
+        "@storeon/websocket": "^1.2.0",
+        "next": "12.0.4",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-router-dom": "^6.1.1",
+        "sass": "^1.43.5",
+        "storeon": "^3.1.4"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.37",
+        "concurrently": "^6.4.0",
+        "eslint": "7.32.0",
+        "eslint-config-next": "12.0.4",
+        "typescript": "^4.5.2"
+    }
 }

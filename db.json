@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "scaasccsas",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "fjkweqnwk",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "kcsjnlsknlak",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+ 
+  "users":[ {
+    "id":"password",
+    "login":"Mike",
+    "email":"hi@gmail.com",
+    "name": "typicode",
+    "surname":"hiiii",
+    "age":"wewf",
+    "avatar":"",
+    "dataRegistration":"",
+    "password":"12345678",
+    "tasks": [
+      {
+        "id": "e61ef246ec183",
+        "title": "cssac",
+        "categorie": "other",
+        "updated": false,
+        "completed": false,
+        "description": "acscsa"
+      },
+      {
+        "id": "21e394755f7fc",
+        "title": "cwcew",
+        "categorie": "other",
+        "updated": false,
+        "completed": false,
+        "description": "wcce"
+      }
+    ]
+  }]
+}
